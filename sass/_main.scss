@@ -61,6 +61,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+@mixin border-dashed {
+    border-bottom: 2px dashed #666;
+}
+
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -84,19 +89,23 @@ a {
 
 header {
     height: 100px;
-    .content {
-        border-bottom: 2px dashed #666;
-    }
+    margin-bottom: 3em;
     h1.logo {
         text-align: center;
         font-size: 60px;
         font-size: 3.75rem;
+        padding-bottom: 10px;;
+        @include border-dashed;
         a:hover {
             color: #f3f3f3;
         }
     }
 }
 
+article.sample {
+    min-height: 500px;
+    @include border-dashed;
+}
 
 
 
