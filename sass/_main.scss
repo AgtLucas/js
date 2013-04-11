@@ -13,6 +13,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background: #393939;
 }
 
 ::-moz-selection {
@@ -74,11 +75,15 @@ textarea {
     padding: 1.25em;
 }
 
+a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
 
 header {
     height: 80px;
 }
-
 
 
 
