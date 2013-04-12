@@ -104,7 +104,8 @@ header {
 }
 
 article.sample {
-    min-height: 500px;
+    // min-height: 500px;
+    margin-bottom: 3em;
     @include border-dashed;
 }
 
