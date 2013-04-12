@@ -91,10 +91,11 @@ header {
     height: 100px;
     margin-bottom: 2em;
     h1.logo {
+        padding-bottom: 5px;
+        font-family: 'Source Sans Pro', sans-serif;
         text-align: center;
         font-size: 60px;
         font-size: 3.75rem;
-        padding-bottom: 10px;;
         @include border-dashed;
         a:hover {
             color: #f3f3f3;
@@ -111,12 +112,13 @@ article.sample {
     color: #f3f3f3;
 }
 
-
-
-
-
-
-
+.copyright {
+    color: #f3f3f3;
+    text-align: center;
+    a:hover {
+        color: teal;
+    }
+}
 
 /* ==========================================================================
    Media Queries
