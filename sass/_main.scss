@@ -89,7 +89,7 @@ a {
 
 header {
     height: 100px;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     h1.logo {
         text-align: center;
         font-size: 60px;
@@ -105,6 +105,10 @@ header {
 article.sample {
     min-height: 500px;
     @include border-dashed;
+}
+
+.title {
+    color: #f3f3f3;
 }
 
 
